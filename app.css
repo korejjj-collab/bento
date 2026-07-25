@@ -281,7 +281,7 @@ body {
 .listsContainer {
   width: 100%;
   height: 100%;
-  display: grid;
+  display: none !important;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 3rem;
