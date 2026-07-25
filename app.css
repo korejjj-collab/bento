@@ -380,4 +380,24 @@ main, .container, #container, .bento-grid {
 .socialNetworks, .social-networks, #social-networks {
     grid-column: 1 / -1 !important;
     margin: 0 auto !important;
+} 
+body, html {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    min-height: 100vh !important;
+    margin: 0 !important;
+    width: 100% !important;
 }
+
+main, .container, #container, .bento-grid {
+    grid-template-columns: 1fr !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    max-width: 600px !important;
+    margin: 0 auto !important;
+}
+
