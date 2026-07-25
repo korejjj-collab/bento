@@ -72,7 +72,7 @@ const CONFIG = {
 		{
 			id: '4',
 			name: 'ВК',
-			icon: 'brand-vk',
+			icon: 'message-square-warning',
 			link: 'https://m.vk.ru',
 		},
 		{
