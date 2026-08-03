@@ -183,3 +183,33 @@ const CONFIG = {
 		},
 	],
 };
+.socialNetworks, .social-networks, #social-networks {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-gap: 2rem !important;
+    width: 100% !important;
+    max-width: 450px !important;
+    margin: 2rem auto 0 auto !important;
+    padding: 0 !important;
+}
+
+.socialNetworks a, .social-networks a, .socialNetworks div, .social-networks div {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 120px !important;
+    height: 120px !important;
+    border-radius: 12px !important;
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    transition: background 0.2s ease !important;
+    margin: 0 auto !important;
+}
+
+.socialNetworks a:hover, .social-networks a:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.socialNetworks svg, .social-networks svg, .socialNetworks i, .social-networks i {
+    width: 32px !important;
+    height: 32px !important;
+}
