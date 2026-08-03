@@ -430,3 +430,23 @@ main, .container, #container, .bento-grid {
     width: 32px !important;
     height: 32px !important;
 }
+body {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    min-height: 100vh !important;
+    margin: 0 !important;
+}
+main, .bento-grid, #container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.socialNetworks, .social-networks {
+    display: flex !important;
+    justify-content: center !important;
+    gap: 1.5rem !important;
+    margin-top: 1.5rem !important;
+}
+
